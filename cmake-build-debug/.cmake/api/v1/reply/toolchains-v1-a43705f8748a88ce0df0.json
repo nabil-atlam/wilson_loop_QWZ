@@ -1,0 +1,189 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "IntelLLVM",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/intel/oneapi/mpi/2021.14/include",
+						"/opt/intel/oneapi/umf/0.9/include",
+						"/opt/intel/oneapi/tbb/2022.0/include",
+						"/opt/intel/oneapi/pti/0.10/include",
+						"/opt/intel/oneapi/ippcp/2025.0/include",
+						"/opt/intel/oneapi/ipp/2022.0/include",
+						"/opt/intel/oneapi/dpl/2022.7/include",
+						"/opt/intel/oneapi/dpcpp-ct/2025.0/include",
+						"/opt/intel/oneapi/dnnl/2025.0/include",
+						"/opt/intel/oneapi/dev-utilities/2025.0/include",
+						"/opt/intel/oneapi/dal/2025.0/include",
+						"/opt/intel/oneapi/ccl/2021.14/include",
+						"/opt/intel/oneapi/compiler/2025.0/opt/compiler/include",
+						"/opt/intel/oneapi/compiler/2025.0/lib/clang/19/include",
+						"/usr/local/include",
+						"/usr/include/x86_64-linux-gnu",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/intel/oneapi/compiler/2025.0/lib",
+						"/opt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu",
+						"/opt/gcc-14/lib/gcc/x86_64-pc-linux-gnu/15.0.0",
+						"/opt/gcc-14/lib64",
+						"/lib/x86_64-linux-gnu",
+						"/lib64",
+						"/usr/lib/x86_64-linux-gnu",
+						"/usr/lib64",
+						"/opt/gcc-14/lib",
+						"/opt/intel/oneapi/compiler/2025.0/opt/compiler/lib",
+						"/lib",
+						"/usr/lib",
+						"/opt/intel/oneapi/tcm/1.2/lib",
+						"/opt/intel/oneapi/umf/0.9/lib",
+						"/opt/intel/oneapi/tbb/2022.0/lib/intel64/gcc4.8",
+						"/opt/intel/oneapi/pti/0.10/lib",
+						"/opt/intel/oneapi/mpi/2021.14/lib",
+						"/opt/intel/oneapi/mkl/2025.0/lib",
+						"/opt/intel/oneapi/ippcp/2025.0/lib",
+						"/opt/intel/oneapi/ipp/2022.0/lib",
+						"/opt/intel/oneapi/dnnl/2025.0/lib",
+						"/opt/intel/oneapi/dal/2025.0/lib",
+						"/opt/intel/oneapi/ccl/2021.14/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"svml",
+						"irng",
+						"imf",
+						"m",
+						"gcc",
+						"gcc_s",
+						"irc",
+						"dl",
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s",
+						"irc_s"
+					]
+				},
+				"path" : "/opt/intel/oneapi/2025.0/bin/mpiicx",
+				"version" : "2025.0.4"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "IntelLLVM",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/intel/oneapi/mpi/2021.14/include",
+						"/opt/intel/oneapi/umf/0.9/include",
+						"/opt/intel/oneapi/tbb/2022.0/include",
+						"/opt/intel/oneapi/pti/0.10/include",
+						"/opt/intel/oneapi/ippcp/2025.0/include",
+						"/opt/intel/oneapi/ipp/2022.0/include",
+						"/opt/intel/oneapi/dpl/2022.7/include",
+						"/opt/intel/oneapi/dpcpp-ct/2025.0/include",
+						"/opt/intel/oneapi/dnnl/2025.0/include",
+						"/opt/intel/oneapi/dev-utilities/2025.0/include",
+						"/opt/intel/oneapi/dal/2025.0/include",
+						"/opt/intel/oneapi/ccl/2021.14/include",
+						"/opt/intel/oneapi/compiler/2025.0/opt/compiler/include",
+						"/opt/gcc-14/include/c++/15.0.0",
+						"/opt/gcc-14/include/c++/15.0.0/x86_64-pc-linux-gnu",
+						"/opt/gcc-14/include/c++/15.0.0/backward",
+						"/opt/intel/oneapi/compiler/2025.0/lib/clang/19/include",
+						"/usr/local/include",
+						"/usr/include/x86_64-linux-gnu",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/intel/oneapi/compiler/2025.0/lib",
+						"/opt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu",
+						"/opt/gcc-14/lib/gcc/x86_64-pc-linux-gnu/15.0.0",
+						"/opt/gcc-14/lib64",
+						"/lib/x86_64-linux-gnu",
+						"/lib64",
+						"/usr/lib/x86_64-linux-gnu",
+						"/usr/lib64",
+						"/opt/gcc-14/lib",
+						"/opt/intel/oneapi/compiler/2025.0/opt/compiler/lib",
+						"/lib",
+						"/usr/lib",
+						"/opt/intel/oneapi/tcm/1.2/lib",
+						"/opt/intel/oneapi/umf/0.9/lib",
+						"/opt/intel/oneapi/tbb/2022.0/lib/intel64/gcc4.8",
+						"/opt/intel/oneapi/pti/0.10/lib",
+						"/opt/intel/oneapi/mpi/2021.14/lib",
+						"/opt/intel/oneapi/mkl/2025.0/lib",
+						"/opt/intel/oneapi/ippcp/2025.0/lib",
+						"/opt/intel/oneapi/ipp/2022.0/lib",
+						"/opt/intel/oneapi/dnnl/2025.0/lib",
+						"/opt/intel/oneapi/dal/2025.0/lib",
+						"/opt/intel/oneapi/ccl/2021.14/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"svml",
+						"irng",
+						"stdc++",
+						"imf",
+						"m",
+						"gcc_s",
+						"gcc",
+						"irc",
+						"dl",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc",
+						"irc_s"
+					]
+				},
+				"path" : "/opt/intel/oneapi/2025.0/bin/mpiicpx",
+				"version" : "2025.0.4"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
